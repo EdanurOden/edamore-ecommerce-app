@@ -1,16 +1,52 @@
-# eddamore
+Edamore, Flutter kullanılarak geliştirilmiş, yerel olarak çalışan bir e-ticaret mobil uygulamasıdır.
+Uygulama, temel e-ticaret akışlarını göstermek amacıyla yerel (local) mock data kullanılarak oluşturulmuştur.
 
-A new Flutter project.
+Proje, mevcut haliyle çalışan bir prototip olup, ilerleyen süreçlerde yeni özellikler ve altyapılar eklenerek geliştirilmeye açıktır.
 
-## Getting Started
+    ÖZELLİKLER(MOCK DATA İLE)
 
-This project is a starting point for a Flutter application.
+Ürün listeleme
 
-A few resources to get you started if this is your first Flutter project:
+Ürün filtreleme
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ürün detaylarını görüntüleme
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ürünleri favorilere ekleme / favorilerden çıkarma
+
+Ürünleri sepete ekleme ve sepet yönetimi
+
+Ödeme adımlarının simülasyonu
+
+Teslimat adresi ekleme ve adres seçimi
+
+Satıcıya / destek hattına mesaj gönderme (simülasyon)
+
+Tüm uygulama verilerinin mock data üzerinden yönetilmesi
+
+  Uygulamada yer alan tüm özellikler gerçek bir backend, veritabanı veya ödeme altyapısı olmadan, mock data kullanılarak simüle edilmiştir.
+
+    KULLANILAN TEKNOLOJİLER
+
+Flutter
+
+Dart
+
+Visual Studio Code
+
+Android Studio Emulator (test amaçlı)
+
+    ÇALIŞMA YAPISI
+
+Uygulama tamamen local olarak çalışmaktadır.
+
+Herhangi bir veritabanı veya backend servisi kullanılmamıştır.
+
+Sepet, favoriler, adres, mesajlaşma ve ödeme gibi işlemler mock data ile simüle edilmiştir.
+
+Uygulama içinde durum yönetimi (state management) mantığı uygulanmıştır.
+
+Proje yapısı, ileride gerçek backend ve veritabanı entegrasyonuna uygun olacak şekilde düzenlenmiştir.
+
+    AMAÇ
+
+Bu proje, mobil uygulama geliştirme sürecini, kullanıcı akışlarını ve e-ticaret uygulamalarının temel mantığını öğrenmek ve uygulamak amacıyla geliştirilmiştir.
